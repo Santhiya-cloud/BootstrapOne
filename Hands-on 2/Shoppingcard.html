@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap Card</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        #heart:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color:black;">
+            <nav class=" navbar-expand-md navbar-dark bg-dark">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="color: white; font-size: 25px;">hTrack</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> <span class="glyphicon glyphicon-home"></span>  Home </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Products </a></li>
+                        <li class="nav-item "><a href="#" style="color: white; font-size: 15px;"> Goals </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <h1>Products</h1>
+
+        <div class="card-columns">
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1564466809058-bf4114d55352?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Camera  <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 7500.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.10000.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        24 1 Megapixel CMOS (APS-C) sensor with is 100–6400 (H: 12800), Built-in Wi-Fi and NFC technology,9-Point AF system and AI Servo AF</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1610551001381-d62bbbbd9299?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5M3xfaGItZGw0US00VXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Moisturizer  <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.2 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 200.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.250.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">Moisturizing Cream is a lightening and nourishing cream blended with pure honey, wheatgerm and seaweed. It sinks into skin to replace natural oils and replenish lost moisture for a noticeably fresher, and brighter complexion.</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">HeadPhones  <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.3 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 1500.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.3000.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">Fire-Boltt Blast 1400 Over -Ear Bluetooth Wireless Headphones with 25H Playtime, Thumping Bass, Lightweight Foldable Compact Design with Google/Siri Voice Assistance</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1595309849416-7651d5586828?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Shoe  <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.1 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 600.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.1000.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        Available in Dark Blue, Footwear White and Core Black, Ripstop and synthetic leather upper, Lightweight EVA midsole,Synthetic cage over the midfoot; Synthetic heel cap</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left:150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1525604499593-d92408d2adbc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Glass  <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.3 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 500.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.800.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">GLASS for perfect brilliance and crystal clarity. High quality processed rim with unique toughening for maximum drinking pleasure.</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left: 150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="image" height="240">
+                <div class="card-body">
+                    <h4 class="card-title">Lipstick <span class="label label-default" style="background-color: rgb(48, 156, 48);">4.4 <span class="glyphicon glyphicon-star"></span></span></h4>
+                    <br>
+                    <h4>Rs. 150.00 <a class="text-muted" style="font-size: small;"><span style="text-decoration: line-through;">Rs.350.00</span> 20% <i class="material-icons" style="color: rgb(173, 6, 40);">new_releases</i></a></h4>
+                    <br>
+                    <p class="card-text" style="font-size: 12.5px; line-height: 25px;">
+                        High color pay off,Long stay,Matte texture,24 Shades,Bold Shades,Matte Finish</p>
+                    <a href="#" class="btn btn-success" style="font-size: 15px;"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart </a>
+                    <a href="#" style="color: darkgrey; padding-left:150px;"><i class="material-icons" id="heart">favorite_outline</i></span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <
+</body>
+</html>
